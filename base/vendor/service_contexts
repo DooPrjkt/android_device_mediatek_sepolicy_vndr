@@ -58,3 +58,7 @@ android.hardware.security.sharedsecret.ISharedSecret/strongbox               u:o
 # Mapper AIDL
 mapper/mediatek    u:object_r:hal_graphics_allocator_service:s0
 mapper/powervr     u:object_r:hal_graphics_mapper_service:s0
+
+# Trustonic
+vendor.trustonic.tee.ITee/default           u:object_r:hal_tee_service:s0
+vendor.trustonic.tui.ITui/default           u:object_r:hal_tee_service:s0
