@@ -360,6 +360,9 @@ type mobicore_admin_device, dev_type;
 type mobicore_user_device, dev_type, mlstrustedobject;
 type mobicore_tui_device, dev_type;
 
+# UFS BSG device type
+type ufs_bsg_device, dev_type;
+
 # teeperf device type
 type teeperf_device, dev_type, mlstrustedobject;
 
