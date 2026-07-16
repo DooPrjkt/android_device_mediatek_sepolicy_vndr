@@ -51,6 +51,9 @@ allow tee protect_f_data_file:dir search;
 allow tee tkcore_protect_data_file:dir create_dir_perms;
 allow tee tkcore_protect_data_file:file { create_file_perms link };
 
+# UFS
+allow tee ufs_bsg_device:chr_file rw_file_perms;
+
 #rpmb
 allow tee self:capability sys_rawio;
 allow tee block_device:dir search;
