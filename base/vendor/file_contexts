@@ -883,6 +883,9 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.security\.keymint(@[0-9]+\.0+)?-service\.trustkernel u:object_r:hal_keymint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android.hardware.gatekeeper-service.trustkernel u:object_r:hal_gatekeeper_default_exec:s0
 
+# UFS
+/dev/ufs-bsg0       u:object_r:ufs_bsg_device:s0
+
 # NXP StrongBox
 /(vendor|system/vendor)/bin/hw/android\.hardware\.security\.keymint-service\.strongbox\.nxp     u:object_r:hal_keymint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.security\.keymint3-service\.strongbox\.nxp    u:object_r:hal_keymint_default_exec:s0
